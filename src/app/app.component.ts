@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  made_noise: string = "";
+
+
+  newNoise(noise) {
+    this.made_noise = noise;
+  }
+
+
 }
